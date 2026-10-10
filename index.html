@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yaswanth | My Personal Blog</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #101010;
+            color: white;
+        }
+
+        header {
+            background: #1c1c1c;
+            padding: 25px 15px;
+            text-align: center;
+            border-bottom: 2px solid #ffcc00;
+        }
+
+        header h1 {
+            color: #ffcc00;
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 30px auto;
+        }
+
+        .card {
+            background: #202020;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px #00000055;
+        }
+
+        h2 {
+            color: #ffcc00;
+        }
+
+        .details p {
+            font-size: 17px;
+            line-height: 1.8;
+        }
+
+        .meme {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .meme-title {
+            text-align: center;
+            font-size: 25px;
+        }
+
+        footer {
+            background: #1c1c1c;
+            padding: 20px;
+            text-align: center;
+            color: #bbbbbb;
+        }
+
+        @media (max-width: 500px) {
+            nav a {
+                display: inline-block;
+                margin: 8px;
+            }
+
+            .card {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to Yaswanth's Blog 👋</h1>
+
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#interests">My Interests</a>
+            <a href="#meme">My Meme</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="card" id="about">
+            <h2>About Me</h2>
+
+            <div class="details">
+                <p><strong>Name:</strong> Yaswanth</p>
+                <p><strong>College:</strong> KPR Institute of Engineering and Technology</p>
+                <p><strong>Department:</strong> Computer Science and Engineering (CSE)</p>
+                <p><strong>Current Goal:</strong> Improve my coding skills and become a good software engineer.</p>
+            </div>
+        </section>
+
+        <section class="card" id="interests">
+            <h2>My Interests 💻</h2>
+
+            <p>• Learning C programming</p>
+            <p>• Web development and HTML</p>
+            <p>• Exploring technology</p>
+            <p>• Cars, music and memes 😂</p>
+        </section>
+
+        <section class="card" id="meme">
+            <h2 class="meme-title">
+                Avan Ennamo Solran...<br>
+                Ivan Ennamo Solran 😂
+            </h2>
+
+            <img
+                src="meme.png"
+                alt="Avan ennamo solran, Ivan ennamo solran meme"
+                class="meme"
+            >
+
+            <p style="text-align: center;">
+                When one person says something
+                and the other person says something else! 😂
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Yaswanth | My Personal Blog</p>
+        <p>Learning • Coding • Creating</p>
+    </footer>
+
+</body>
+</html>
